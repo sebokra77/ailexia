@@ -1,11 +1,20 @@
 <<<<<<< HEAD
-<p align="center">
-    <a href="https://github.com/yiisoft" target="_blank">
-        <img src="https://avatars0.githubusercontent.com/u/993323" height="100px">
-    </a>
-    <h1 align="center">Yii 2 Advanced Project Template</h1>
-    <br>
-</p>
+
+# AiLexia
+
+AiLexa to aplikacja typu MVP wykorzystująca sztuczną inteligencję do automatycznej korekty językowej tekstów przechowywanych w dowolnych bazach danych (MySQL, MSSQL, PostgreSQL, SQLite). Projekt łączy backend PHP (Yii2), worker AI w Python (FastAPI) oraz integrację z modelami Gemini / GPT.
+
+🎯 Cel projektu
+
+Celem AiLexa jest poprawa jakości danych tekstowych w firmowych systemach poprzez:
+- wykrywanie i poprawę błędów ortograficznych, gramatycznych i stylistycznych,
+- ujednolicanie formy i stylu tekstów,
+- umożliwienie użytkownikowi akceptacji poprawek przed aktualizacją bazy,
+- działanie w trybie bezpiecznym — tylko odczyt + synchronizacja po zatwierdzeniu.
+
+
+
+>>>>>>> 0ddcc08bceb220a5dcf8f999a726d34b8296da8b
 
 Yii 2 Advanced Project Template is a skeleton [Yii 2](https://www.yiiframework.com/) application best for
 developing complex Web applications with multiple tiers.
@@ -60,16 +69,3 @@ vendor/                  contains dependent 3rd-party packages
 environments/            contains environment-based overrides
 ```
 =======
-# AiLexia
-
-AiLexa to aplikacja typu MVP wykorzystująca sztuczną inteligencję do automatycznej korekty językowej tekstów przechowywanych w dowolnych bazach danych (MySQL, MSSQL, PostgreSQL, SQLite). Projekt łączy backend PHP (Yii2), worker AI w Python (FastAPI) oraz integrację z modelami Gemini / GPT.
-
-🎯 Cel projektu
-
-Celem AiLexa jest poprawa jakości danych tekstowych w firmowych systemach poprzez:
-- wykrywanie i poprawę błędów ortograficznych, gramatycznych i stylistycznych,
-- ujednolicanie formy i stylu tekstów,
-- umożliwienie użytkownikowi akceptacji poprawek przed aktualizacją bazy,
-- działanie w trybie bezpiecznym — tylko odczyt + synchronizacja po zatwierdzeniu.
-
->>>>>>> 0ddcc08bceb220a5dcf8f999a726d34b8296da8b
