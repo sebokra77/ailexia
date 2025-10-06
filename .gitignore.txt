@@ -1,0 +1,71 @@
+# =============================
+# Yii2 Advanced Template
+# =============================
+
+# Composer vendor directory
+/vendor/
+
+# Node / frontend assets
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+pnpm-lock.yaml
+
+# Runtime, cache, logs
+/backend/runtime/
+/frontend/runtime/
+/common/runtime/
+/console/runtime/
+/environments/*/runtime/
+/runtime/
+/assets/
+/frontend/web/assets/
+/backend/web/assets/
+/console/web/assets/
+/tests/_output/
+
+# User uploads (keep empty dir)
+!/frontend/web/uploads/.gitkeep
+/frontend/web/uploads/*
+!/frontend/web/uploads/.gitignore
+
+# Environment-specific configs
+/backend/config/main-local.php
+/backend/config/params-local.php
+/frontend/config/main-local.php
+/frontend/config/params-local.php
+/common/config/main-local.php
+/common/config/params-local.php
+/console/config/main-local.php
+/console/config/params-local.php
+
+# IDE & system files
+.idea/
+.vscode/
+*.iml
+*.bak
+*.swp
+*.tmp
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# PHPUnit / tests
+/.phpunit.result.cache
+/tests/_support/_generated
+/tests/_output/
+codeception.yml
+
+# Composer files generated dynamically
+composer.lock
+
+# OS junk files
+*.log
+*.cache
+
+# Environments (for init command)
+# — keep the directory but ignore generated files
+/environments/*/.DS_Store
+/environments/*/runtime/
