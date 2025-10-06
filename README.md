@@ -12,10 +12,7 @@ Celem AiLexa jest poprawa jakości danych tekstowych w firmowych systemach poprz
 - umożliwienie użytkownikowi akceptacji poprawek przed aktualizacją bazy,
 - działanie w trybie bezpiecznym — tylko odczyt + synchronizacja po zatwierdzeniu.
 
-
-
->>>>>>> 0ddcc08bceb220a5dcf8f999a726d34b8296da8b
-
+Powerded by
 Yii 2 Advanced Project Template is a skeleton [Yii 2](https://www.yiiframework.com/) application best for
 developing complex Web applications with multiple tiers.
 
@@ -68,4 +65,4 @@ frontend
 vendor/                  contains dependent 3rd-party packages
 environments/            contains environment-based overrides
 ```
-=======
+
