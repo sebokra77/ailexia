@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 # AiLexia
 
 AiLexa to aplikacja typu MVP wykorzystująca sztuczną inteligencję do automatycznej korekty językowej tekstów przechowywanych w dowolnych bazach danych (MySQL, MSSQL, PostgreSQL, SQLite). Projekt łączy backend PHP (Yii2), worker AI w Python (FastAPI) oraz integrację z modelami Gemini / GPT.
