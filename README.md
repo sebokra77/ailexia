@@ -60,5 +60,16 @@ vendor/                  contains dependent 3rd-party packages
 environments/            contains environment-based overrides
 ```
 =======
-# ailexia
+# AiLexia
+
+AiLexa to aplikacja typu MVP wykorzystująca sztuczną inteligencję do automatycznej korekty językowej tekstów przechowywanych w dowolnych bazach danych (MySQL, MSSQL, PostgreSQL, SQLite). Projekt łączy backend PHP (Yii2), worker AI w Python (FastAPI) oraz integrację z modelami Gemini / GPT.
+
+🎯 Cel projektu
+
+Celem AiLexa jest poprawa jakości danych tekstowych w firmowych systemach poprzez:
+- wykrywanie i poprawę błędów ortograficznych, gramatycznych i stylistycznych,
+- ujednolicanie formy i stylu tekstów,
+- umożliwienie użytkownikowi akceptacji poprawek przed aktualizacją bazy,
+- działanie w trybie bezpiecznym — tylko odczyt + synchronizacja po zatwierdzeniu.
+
 >>>>>>> 0ddcc08bceb220a5dcf8f999a726d34b8296da8b
